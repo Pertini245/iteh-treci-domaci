@@ -11,3 +11,38 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.svi-laptopovi-prikaz {
+  padding-left: 520px;
+  padding-right: 450px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.laptop-prikaz {
+  margin-right: 50px;
+}
+
+
+#laptop-model {
+  margin-bottom: -50px;
+}
+
+img {
+  padding-top: 20px;
+  width: 300px;
+  margin-bottom: -50px;
+}
+
+.laptop-osobine {
+  margin-bottom: -10px;
+}
+
+#dugme-obrisi {
+  margin-top: 20px;
+  width: 150px;
+  background-color: red;
+  color: white;
+  height: 40px;
+  border-radius: 15px;
+}
