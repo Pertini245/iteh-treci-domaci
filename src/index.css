@@ -12,8 +12,8 @@ code {
     monospace;
 }
 
-#glavni_naslov {
-  color: blue;
+h1 {
+  color: #0275d8;
 }
 
 .svi-laptopovi-prikaz {
@@ -58,6 +58,7 @@ img {
 
 textarea {
   width: 140px;
+  height: 200px;
 }
 
 .kontaktstrana input,
@@ -65,19 +66,17 @@ textarea {
   width: 300px;
   margin-top: 10px;
   display: block;
-  margin-left: 800px;
+  margin-left: 805px;
   border-radius: 10px;
+  height: 30px;
 }
 
 #dugme {
   margin-top: 20px;
   width: 150px;
-  height: 30px;
+  height: 40px;
   background-color: #e74c3c;
   color: white;
   border-radius: 15px;
-}
-
-#ime {
-  margin-bottom: 200px;
+  margin-left: 5px;
 }

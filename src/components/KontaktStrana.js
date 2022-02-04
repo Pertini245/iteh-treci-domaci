@@ -39,7 +39,7 @@ function KontaktStrana() {
                     className="input-polja"
                     onChange={(e) => setEmail(e.target.value)}
                 />
-                <label>Email:</label>
+                <label>Poruka:</label>
                 <textarea
                     required
                     value={poruka}
