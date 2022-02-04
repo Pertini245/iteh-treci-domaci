@@ -45,8 +45,39 @@ img {
 #dugme-obrisi {
   margin-top: 20px;
   width: 150px;
-  background-color: red;
+  background-color: #e74c3c;
   color: white;
   height: 40px;
   border-radius: 15px;
+}
+
+.kontaktstrana {
+  margin-top: 200px;
+}
+
+
+textarea {
+  width: 140px;
+}
+
+.kontaktstrana input,
+textarea {
+  width: 300px;
+  margin-top: 10px;
+  display: block;
+  margin-left: 800px;
+  border-radius: 10px;
+}
+
+#dugme {
+  margin-top: 20px;
+  width: 150px;
+  height: 30px;
+  background-color: #e74c3c;
+  color: white;
+  border-radius: 15px;
+}
+
+#ime {
+  margin-bottom: 200px;
 }
