@@ -5,7 +5,9 @@ function PrikazLaptopova(props) {
     var laptopovi = props.laptopovi;
 
     function obrisiLaptop(id) {
-
+        var updateLaptopovi = laptopovi.filter((laptop) => laptop.id !== id);
+        props.funkcija(updateLaptopovi);
+        alert('Laptop uspešno obrisan!');
     }
 
     return (

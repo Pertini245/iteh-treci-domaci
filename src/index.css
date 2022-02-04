@@ -12,6 +12,10 @@ code {
     monospace;
 }
 
+#glavni_naslov {
+  color: blue;
+}
+
 .svi-laptopovi-prikaz {
   padding-left: 520px;
   padding-right: 450px;

@@ -13,8 +13,8 @@ function Home() {
 
     return (
         <div className="home">
-            <h1>Laptop E-commerce</h1>
-            <PrikazLaptopova laptopovi={laptopovi}></PrikazLaptopova>
+            <h1 id="glavni_naslov">Laptop E-commerce</h1>
+            <PrikazLaptopova laptopovi={laptopovi} funkcija={setLaptopovi}></PrikazLaptopova>
         </div>
     );
 }
